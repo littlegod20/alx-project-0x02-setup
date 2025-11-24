@@ -13,3 +13,8 @@ export interface Project {
   createdAt: Date;
 }
 
+export interface CardProps {
+  title: string;
+  content: string;
+}
+
