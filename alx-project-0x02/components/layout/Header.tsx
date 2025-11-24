@@ -20,6 +20,11 @@ const Header: React.FC = () => {
                 About
               </Link>
             </li>
+            <li>
+              <Link href="/posts" className="text-gray-600 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white">
+                Posts
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>
