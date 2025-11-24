@@ -1,3 +1,5 @@
+import React from 'react';
+
 // Common TypeScript interfaces for the project
 
 export interface User {
@@ -16,5 +18,13 @@ export interface Project {
 export interface CardProps {
   title: string;
   content: string;
+}
+
+export interface ButtonProps {
+  size?: 'small' | 'medium' | 'large';
+  shape?: 'rounded-sm' | 'rounded-md' | 'rounded-full';
+  children: React.ReactNode;
+  onClick?: () => void;
+  className?: string;
 }
 
